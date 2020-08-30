@@ -8,3 +8,7 @@ https://chi2021.acm.org/
 | September 10, 2020 | [Papers : Title, abstract, authors, subcommittee choice, and all other metadata](https://chi2021.acm.org/for-authors/presenting/papers) |
 | ------------------ | ------------------------------------------------------------ |
 | September 17, 2020 | [Papers : Submissions files](https://chi2021.acm.org/for-authors/presenting/papers) |
+
+
+
+[LaTeX](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) (Use sample-manuscript.tex for submissions)
