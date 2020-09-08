@@ -32,6 +32,7 @@ It encourages people who are experiencing emotional problems to expose and face 
 | Title                         | Detail                                                       |
 | ----------------------------- | ------------------------------------------------------------ |
 | Background                    | Intro about mental disorder people, including data about the death rate in china |
+| Related Work                  | Any?                                                         |
 | Interaction Design            | Steps of using SUSI and scenario                             |
 | APP Design                    | APP function and interface design, also its considerations   |
 | Emotion-Colored shape design  | Emotion recognition and little pet graphic design            |
