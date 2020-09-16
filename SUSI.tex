@@ -272,19 +272,19 @@ The SUSI Gene prototype is comprised of three main hardware components: the main
 
 The main PCB integrates a mount for Arduino Nano 33 BLE Sense (with headers), a battery connector, 6 individually addressable Warm White RGBW version WS2812B with integrated drivers, connector for vibration motor and NFC coil, and an I2C port for NFC chip communication.
 
-The main PCB schemetic is shown in Fig~\ref{PCBsch1} and the PCB layout is shown in Fig~\ref{PCB1}.
+The main PCB schemetic is shown in Fig~\ref{PCBsch1} and its layout is shown in Fig~\ref{PCB1}.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{PCBsch1.png}
-  \caption{PCB schemetic}
+  \caption{The main PCB schemetic}
   \label{PCBsch1}
 \end{figure}
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.5\linewidth]{PCB1.png}
-  \caption{PCB layout}
+  \caption{The main PCB layout}
   \label{PCB1}
 \end{figure}
 
@@ -314,7 +314,23 @@ If users' smart phone do not have NFC function(like old iphone), we provide an e
 
 We use NXP NTA53321G0FTT(NTAG 5 boost: NFC Forum-compliant I2C bridge for tiny devices) as re-programmable NFC forum type 5 tag. It can harvest up to 30 mW energy when used as passive regulated.
 
-NTAG 5 boost should be used for antennas smaller or equal class 6. For larger antennas NTAG 5 link/switch should be used. So in this case, we use NXP NFC Antenna Design Tool to design a class 6 antenna for NTAG 5 boost. The antenna of a “Class 6” design shall be located within a zone defined by a circle of 25mm diameter.
+NTAG 5 boost should be used for antennas smaller or equal class 6. For larger antennas NTAG 5 link or switch should be used. So in this case, we use NXP NFC Antenna Design Tool to design a class 6 antenna for NTAG 5 boost. The antenna of a “Class 6” design shall be located within a zone defined by a circle of 25mm diameter.
+
+The NFC PCB schemetic is shown in Fig~\ref{PCBsch2} and its layout is shown in Fig~\ref{PCB2}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\linewidth]{PCBsch2.png}
+  \caption{NFC-PCB schemetic}
+  \label{PCBsch2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\linewidth]{PCB2.png}
+  \caption{NFC-PCB layout}
+  \label{PCB2}
+\end{figure}
 
 \section{Discussion and future work}
 
