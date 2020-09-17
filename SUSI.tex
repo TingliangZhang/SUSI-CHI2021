@@ -254,6 +254,29 @@ More about SUSI is shown in Fig~\ref{Xmind}.
   \label{Xmind}
 \end{figure}
 
+\section{Emotion Pattern Design}
+
+We select eight emotions which are tranquil, contented, joyful, excited, fatigued, upset, anxious and angry as the identification bases, and inspired by Hanada,\cite{hanada2018correspondence}
+we arrange them from two dimensions: pleasantness and arousal level. Based on previous studies in color psychology,\cite{valdez1994effects}
+we assigned specific shapes and colors to each emotion to facilitate identification. The two emotions with similar arousal level, such as tranquil and fatigued, share a basic pattern but varies in colors and edges. The pattern demonstrate emotions that are considered relatively pleasureless have sharped edges and in darker colors, whereas the pattern presented other emotions have rounded edges and in brighter colors as shown in Fig~\ref{Icon}. In order to guide users to cherish and contain their own emotions, the emotional symbols with different images are designed to relax, full of expectations and gradually accept themselves in the process of waiting for their emotional animals to break their shells.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{Icon.png}
+  \caption{Design of the icon}
+  \label{Icon}
+\end{figure}
+
+These shapes and colors also become the bases for creature generation. The eight emotions respectively matches eight kinds of creatures. In general, the emotions relates to pleasure are either represented by plants or warm blood animals, and the emotions relates to displeasure are visualized as fungus and cold blood animals. In this prototype, the kinds of animals along with their basic appearances and backstories are pre-defined (some of the settings are illustrated below), but the additional information provided by the user is supposed to affect how the detailed components finalize. In the design of these creature, they are all unique fantasy animals designed by combining different animals. Because of the complexity of emotions, each animal will have other emotional characteristics, including but not limited to graphics and colors. This emotional animal of each user provides more possibilities and is a unique emotional animal for users. In our future versions, we expect to make the generated creature more unique and personalized by altering more elements of the creature.
+
+
+\begin{itemize}
+  \item Cacited: Cacited is a cat-like creature. Cacited’s ancestor lived in alpine region and that endows his exceptional speed and hunting skill. His eyes and ear would shine after a successful hunting.
+  \item Repgry: Repgry has jagged fins on its cheeks and acicular scales on its body. It lives in desert area and lack of water makes its fins and scales change from soft to hard. Repgry has always been trying to stay closer to water since he worries other animals would avoid him because of his appearance.
+  \item Anxect: Anxect is very small—about 4 millimeter long, and so is his heart. Thus, Anxect’s pulse may suddenly race, and he has to vibrate his wings quickly to reduce the symptoms. During that process, he might unexpectedly finish a long journey. 
+  \item Upsafish: Upsafish is a type of mollusk living in the sea. He has two forms. In normal state, he looks like an octopus, and during cloudy days, he would grow into a whale tail  and shows some spots on his skins until the sun returns.
+\end{itemize}
+
 \section{Interaction Design}
 
 Because the egg has a symbol of new life, we use it as a source of inspiration, implying that emotions can be broken.It is often found that people noticed they were holding some negative emotions and at the same time, felt bad for this fact and therefore were more prone to negative emotions. We wish to convey the idea that all emotions can hatch out lovely creatures and thus guide the users away from making value judgment about different emotions.
@@ -279,30 +302,6 @@ As explained above, radio processing and creature generating process mostly happ
   \caption{APP procedure}
   \label{APP}
 \end{figure}
-
-\section{Emotion Pattern Design}
-
-We select eight emotions which are tranquil, contented, joyful, excited, fatigued, upset, anxious and angry as the identification bases, and inspired by Hanada,\cite{hanada2018correspondence}
-we arrange them from two dimensions: pleasantness and arousal level. Based on previous studies in color psychology,\cite{valdez1994effects}
-we assigned specific shapes and colors to each emotion to facilitate identification. The two emotions with similar arousal level, such as tranquil and fatigued, share a basic pattern but varies in colors and edges. The pattern demonstrate emotions that are considered relatively pleasureless have sharped edges and in darker colors, whereas the pattern presented other emotions have rounded edges and in brighter colors as shown in Fig~\ref{Icon}. In order to guide users to cherish and contain their own emotions, the emotional symbols with different images are designed to relax, full of expectations and gradually accept themselves in the process of waiting for their emotional animals to break their shells.
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{Icon.png}
-  \caption{Design of the icon}
-  \label{Icon}
-\end{figure}
-
-These shapes and colors also become the bases for creature generation. The eight emotions respectively matches eight kinds of creatures. In general, the emotions relates to pleasure are either represented by plants or warm blood animals, and the emotions relates to displeasure are visualized as fungus and cold blood animals. In this prototype, the kinds of animals along with their basic appearances and backstories are pre-defined (some of the settings are illustrated below), but the additional information provided by the user is supposed to affect how the detailed components finalize. In the design of these creature, they are all unique fantasy animals designed by combining different animals. Because of the complexity of emotions, each animal will have other emotional characteristics, including but not limited to graphics and colors. This emotional animal of each user provides more possibilities and is a unique emotional animal for users. In our future versions, we expect to make the generated creature more unique and personalized by altering more elements of the creature.
-
-
-\begin{itemize}
-  \item Cacited: Cacited is a cat-like creature. Cacited’s ancestor lived in alpine region and that endows his exceptional speed and hunting skill. His eyes and ear would shine after a successful hunting.
-  \item Repgry: Repgry has jagged fins on its cheeks and acicular scales on its body. It lives in desert area and lack of water makes its fins and scales change from soft to hard. Repgry has always been trying to stay closer to water since he worries other animals would avoid him because of his appearance.
-  \item Anxect: Anxect is very small—about 4 millimeter long, and so is his heart. Thus, Anxect’s pulse may suddenly race, and he has to vibrate his wings quickly to reduce the symptoms. During that process, he might unexpectedly finish a long journey. 
-  \item Upsafish: Upsafish is a type of mollusk living in the sea. He has two forms. In normal state, he looks like an octopus, and during cloudy days, he would grow into a whale tail  and shows some spots on his skins until the sun returns.
-\end{itemize}
-
 
 \section{Hardware}
 
@@ -392,7 +391,7 @@ The NFC PCB schematic is shown in Fig~\ref{PCBsch2} and its layout is shown in F
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.7\linewidth]{PCBsch2.png}
+  \includegraphics[width=0.5\linewidth]{PCBsch2.png}
   \caption{NFC-PCB schematic}
   \label{PCBsch2}
 \end{figure}
@@ -406,6 +405,10 @@ If we still want to put NLP on a smartphone instead of an embedded system, we ca
 With much more powerful chips, we can make SUSI GENE smaller, more efficient, and more portable. 
 
 We will find some people who suffer from mood disorders and do some user experiences and field surveys. Due to the COVID-19 pandemic, we have difficulty in UEX. But one of us suffers from bipolar disorder, and she comes up with this idea. Another member has a major depressive disorder, he tries most functionality of SUSI GENE, and give mostly positive feedback.
+
+\section{conclusion}
+
+In this article, we present SUSI GENE as a tool for self awareness, therapy supplymentary and help seeking.
 
 %%
 %% The next two lines define the bibliography style to be used, and
